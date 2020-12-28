@@ -1,0 +1,3 @@
+[submodule "Utilities/ACPIe"]
+	path = Utilities/ACPIe
+	url = https://github.com/Ubsefor/ACPIe
