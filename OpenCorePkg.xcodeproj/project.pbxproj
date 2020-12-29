@@ -662,8 +662,8 @@
 		35529AD02461768100CF8169 /* Riff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Riff.h; sourceTree = "<group>"; };
 		35529AD12461768100CF8169 /* HdaVerbs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HdaVerbs.h; sourceTree = "<group>"; };
 		35529AD22461768100CF8169 /* VirtualMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualMemory.h; sourceTree = "<group>"; };
-		35529AD32461768100CF8169 /* ProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessorInfo.h; sourceTree = "<group>"; };
-		357E232523F2A06B00BC930F /* UDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UDK; sourceTree = "<group>"; };
+		35529AD32461768100CF8169 /* ProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessorInfo.h; path = ../Intel/IndustryStandard/ProcessorInfo.h; sourceTree = "<group>"; };
+		357E232523F2A06B00BC930F /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -802,7 +802,8 @@
 				35529ABE2461768100CF8169 /* Protocol */,
 				3511D57C23FDB2A700CC3B17 /* OpenCore.h */,
 			);
-			path = Include;
+			name = Include;
+			path = Include/Acidanthera;
 			sourceTree = "<group>";
 		};
 		3511D57D23FDB2A700CC3B17 /* Application */ = {
@@ -1677,7 +1678,7 @@
 				3511D55D23FDB2A600CC3B17 /* Docs */,
 				3511D57B23FDB2A700CC3B17 /* Include */,
 				3511D58123FDB2A800CC3B17 /* Platform */,
-				357E232523F2A06B00BC930F /* UDK */,
+				357E232523F2A06B00BC930F /* .. */,
 				3511D59823FDB2D900CC3B17 /* __OpenCorePkg__index.o */,
 			);
 			sourceTree = "<group>";
